@@ -4,9 +4,17 @@ This page deals with the code on both the microcontroller side and HMI (nextion)
 I had to figure some of this out on my own, so I want to share some of the knowledge I found along the way. 
 
 Parts used:
-PIC18F16Q40 CURIOSITY NANO 
+
  <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>PIC18F16Q40 CURIOSITY NANO </li>
+  <li>Nextion NX3224T024</li>
+  <li>USB to UART converter (anyone works)</li> 
 </ul> 
+
+Software:
+
+ <ul>
+  <li>SW1</li>
+
+</ul> 
+
