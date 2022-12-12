@@ -43,9 +43,9 @@ Next, we want to make a function. This is basically a UART buffer than receives 
 ```c
 void EUSART_Read_Text(char *Output, unsigned int length)
 {
-	unsigned int j;
-	for(j=0;j<length;j++)
-	Output[j] = UART1_Read();
+unsigned int j;
+for(j=0;j<length;j++)
+Output[j] = UART1_Read();
 }
 ```
 Put this at the top of your c file, before void main that gets generated. Now we are ready to read characters from the Nextion display.
