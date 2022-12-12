@@ -35,17 +35,17 @@ Be sure that when you select UART1 that you check the box that says "Redirect ST
 
 First we want to declare some variables we will be using for this. 
 ```c
-unsigned char FAN;//FAN button
-__bit LED_Status_BIT;//Just a LED status bit
-char buf[16];//character buffer
+ unsigned char FAN;//FAN button
+ __bit LED_Status_BIT;//Just a LED status bit
+ char buf[16];//character buffer
 ```
 Next, we want to make a function. This is basically a UART buffer than receives x amount of characters from the UART lines.
 ```c
 void EUSART_Read_Text(char *Output, unsigned int length)
 {
-unsigned int j;
-for(j=0;j<length;j++)
-Output[j] = UART1_Read();
+ unsigned int j;
+ for(j=0;j<length;j++)
+ Output[j] = UART1_Read();
 }
 ```
 Put this at the top of your c file, before void main that gets generated. Now we are ready to read characters from the Nextion display.
