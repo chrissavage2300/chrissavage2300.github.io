@@ -51,4 +51,48 @@ void EUSART_Read_Text(char *Output, unsigned int length)
 Put this at the top of your c file, before void main that gets generated. Now we are ready to read characters from the Nextion display.
 
 
+```
+/**
+
+
+*/
+
+#include "mcc_generated_files/mcc.h"
+#include <stdio.h>
+#include <string.h>
+/*
+                         Main application
+ */
+
+unsigned char FAN;
+
+char buf[16];
+
+ 
+//This function reads characters coming in from the USART port from the nextion
+void EUSART_Read_Text(char *Output, unsigned int length)
+{
+	unsigned int j;
+	for(j=0;j<length;j++)
+	Output[j] = UART1_Read();
+}
+    
+    
+void main(void)
+{
+    // Initialize the device
+    SYSTEM_Initialize();
+
+    while (1)
+    {
+   
+  
+    
+    
+    }
+}
+
+```
+
+
 [back](./)
