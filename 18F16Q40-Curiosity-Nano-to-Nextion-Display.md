@@ -20,7 +20,22 @@ Software:
   <li>XC8 V2.20 or better</li>
   <li>MPLAB Code Configurator V5</li> 
   
-
 </ul> 
+
+This project assumes you know how to use the above software. The very first thing we want to do is to define a UART port. For this, I used RB5 and RB7. I only used them because they were right next to each other. You can use whatever you want. Set your USART to 9600 BPS.
+
+The onboard LED is tied to RC1, so be sure to set this as an output. You can use another pin if you want, just dont forget to define it. 
+
+Setting up the Nano was pretty simple after that. The default settings work well.
+
+(SETTINGS PLACE HOLDER)
+
+Be sure that when you select UART1 that you check the box that says "Redirect STDIO to UART"
+
+```c
+unsigned char FAN;
+__bit LED_Status_BIT;
+char buf[16];
+```
 
 [back](./)
