@@ -95,7 +95,9 @@ Next, you'll want to have the button print stuff when touched:
 
 ![FAN Button Settings](https://github.com/chrissavage2300/chrissavage2300.github.io/blob/main/photos/NextionHMI_FAN_BUTTON.png?raw=true)
 
-Why twice? Its because the other code that will be added in later uses another 3 digits. Otherwise, if you only send it out once, you'll have to touch it once more. This is the only way I got it to work, which was sending it out twice. 
+Why twice? Its because the other code that will be added in later uses another 3 digits. Otherwise, if you only send it out once, you'll have to touch it once more. This is the only way I got it to work, which was sending it out twice. Once you've done this, you can upload it to the HMI. 
+
+I almost forgot, be sure to make a font list for the HMI. It might take time to upload, but you can find tutorials on how to do that elsewhere. 
 
 [back](./)
 
