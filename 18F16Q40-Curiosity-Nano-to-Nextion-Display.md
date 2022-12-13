@@ -87,7 +87,7 @@ void main(void)
 
 # Nextion HMI
 
-Next, you'll want to add in a button as shown below. Dont worry about the other stuff for now, but you can add it if you want as the full code will have support for those items. For now, we are just turning a LED on and off through the HMI. 
+Next, you'll want to add in a button as shown below. Dont worry about the other stuff for now, but you can add it if you want as the full code will have support for those items. For now, we are just turning a LED on and off through the HMI. You might also want to put the background color as red "63488".
 
 ![HMI](https://github.com/chrissavage2300/chrissavage2300.github.io/blob/main/photos/NextionHMI.png?raw=true)
 
