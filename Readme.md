@@ -29,3 +29,5 @@ This repo also has another version that is untested: WS2812. I wanted to use the
 ![LED Lamp](https://github.com/chrissavage2300/PIC-SK9822-LED-LAMP/raw/main/20251125_195543.jpg?raw=true)
 
 <button onclick="window.location.href='https://github.com/chrissavage2300/Coffee-Roaster-V2';">
+Coffee Roaster V2 Button.
+</button>  
