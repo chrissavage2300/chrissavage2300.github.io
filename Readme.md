@@ -18,7 +18,9 @@ This project involves making a custom PID controller with a PIC micro, and using
 
 This project is a custom job that uses a welded frame. Same Idea but I also chose to use a dsPIC instead. It features a removable drum and has a controllable intake fan. I did not implement PID control yet and control is manual.
 
-[Version 2.0](https://github.com/chrissavage2300/Coffee-Roaster-V2)
+<button onclick="window.location.href='https://github.com/chrissavage2300/Coffee-Roaster-V2';">
+Coffee Roaster V2 Button.
+</button>
 ![Coffe Roaster](https://github.com/chrissavage2300/Coffee-Roaster-V2/raw/main/20250221_132231.jpg?raw=true)
 
 ### Sk9822 LED LAMP:
@@ -28,6 +30,4 @@ This repo also has another version that is untested: WS2812. I wanted to use the
 [SK9822 Repo](https://github.com/chrissavage2300/PIC-SK9822-LED-LAMP)
 ![LED Lamp](https://github.com/chrissavage2300/PIC-SK9822-LED-LAMP/raw/main/20251125_195543.jpg?raw=true)
 
-<button onclick="window.location.href='https://github.com/chrissavage2300/Coffee-Roaster-V2';">
-Coffee Roaster V2 Button.
-</button>  
+
