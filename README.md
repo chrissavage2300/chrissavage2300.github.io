@@ -28,3 +28,4 @@ This repo also has another version that is untested: WS2812. I wanted to use the
 [SK9822 Repo](https://github.com/chrissavage2300/PIC-SK9822-LED-LAMP)
 ![LED Lamp](https://github.com/chrissavage2300/PIC-SK9822-LED-LAMP/raw/main/20251125_195543.jpg?raw=true)
 
+ <button type="button">Click Me!</button> 
