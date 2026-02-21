@@ -9,5 +9,9 @@ There isnt much going on right now, but Im trying my best to document things.
 This project deals with the PIC18F16Q40 Curiosity and Nextion display. This page will serve to document my findings so I can help others.
 
 ### Coffee Roaster Project
-(link coming soon)
+[(Link)](https://github.com/chrissavage2300/Air-Fryer-Coffee-Roaster)
 This project involves making a custom PID controller with a PIC micro, and using a "broken" air fryer to roast coffee. Currently on version 1.2
+
+Version 2.0 is a custom job that uses a welded frame. Same Idea but I also chose to use a dsPIC instead. 
+[Version 2.0](https://github.com/chrissavage2300/Coffee-Roaster-V2)
+![Coffe Roaster](https://github.com/chrissavage2300/Coffee-Roaster-V2/raw/main/20250221_132231.jpg?raw=true)
