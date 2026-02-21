@@ -16,7 +16,7 @@ This project involves making a custom PID controller with a PIC micro, and using
 
 ### Version 2.0 Coffee Roaster Project
 
-This project is a custom job that uses a welded frame. Same Idea but I also chose to use a dsPIC instead.
+This project is a custom job that uses a welded frame. Same Idea but I also chose to use a dsPIC instead. It features a removable drum and has a controllable intake fan. I did not implement PID control yet and control is manual.
 
 [Version 2.0](https://github.com/chrissavage2300/Coffee-Roaster-V2)
 ![Coffe Roaster](https://github.com/chrissavage2300/Coffee-Roaster-V2/raw/main/20250221_132231.jpg?raw=true)
