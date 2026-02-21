@@ -19,8 +19,9 @@ This project involves making a custom PID controller with a PIC micro, and using
 This project is a custom job that uses a welded frame. Same Idea but I also chose to use a dsPIC instead. It features a removable drum and has a controllable intake fan. I did not implement PID control yet and control is manual.
 
 <button onclick="window.location.href='https://github.com/chrissavage2300/Coffee-Roaster-V2';">
-Coffee Roaster V2 Button.
+Coffee Roaster V2
 </button>
+
 ![Coffe Roaster](https://github.com/chrissavage2300/Coffee-Roaster-V2/raw/main/20250221_132231.jpg?raw=true)
 
 ### Sk9822 LED LAMP:
